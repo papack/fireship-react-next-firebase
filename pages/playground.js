@@ -4,7 +4,7 @@ import Loader from "../components/Loader";
 export default function playground(props) {
   return (
     <div className={style.container}>
-      <Loader></Loader>
+      <Loader show />
     </div>
   );
 }
