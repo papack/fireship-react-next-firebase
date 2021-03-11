@@ -1,3 +1,3 @@
 export default function Loader({ show }) {
-  return <div>niy</div>;
+  return show ? <div></div> : null;
 }
